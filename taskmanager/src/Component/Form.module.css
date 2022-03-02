@@ -1,0 +1,41 @@
+body{
+    background-color: #e8f3fe;
+}
+.box{
+    background-color: white;
+    box-shadow: 2px 2px 2px 4px rgb(192, 192, 192);
+    border-radius: 5px;
+    padding: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10%;
+}
+.input{
+    width: 100%;
+}
+.output{
+    width: 80%;
+    margin: 2% 10%;
+    display: flex;
+    gap: 5%;
+}
+.output>p{
+    width: 50%;
+}
+.output>button{
+    width: 50%;
+}
+.output_button{
+    background-color: #003979;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+.output_button_delete{
+    background-color: #d60707;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
